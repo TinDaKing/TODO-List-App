@@ -1,0 +1,19 @@
+body {
+    background-color: #f57574;
+    background-image: url("background_img.jpg");
+    background-size:     cover;       
+    background-position: center;
+    
+}
+h1 {
+    color: #f0007b;
+}
+p {
+    color: red;   
+}
+iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
