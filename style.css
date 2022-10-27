@@ -1,15 +1,84 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Verdana', sans-serif;
+}
 body {
     background-color: #f57574;
-    background-image: url("background_img.jpg");
-    background-size:     cover;       
-    background-position: center;
+    display: flex; 
+    justify-content: center; /*horizontal*/
+    align-items: center; /*vertical center*/
+    min-height: 100vh;
+
     
+}
+.list {
+    position: relative;
+    background-color: #fff;
+    width: 450px;
+}
+.list h2{
+    background-color: #03a9f4;
+    color: #fff;
+    padding:10px 20px;
+    font-weight: 600;
+}
+.list ul{
+    padding:relative;
+    padding: 20px;
+}
+.list ul li{
+    position: relative;
+    list-style: none;
+    padding: 15px 0;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+.list ul li label{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+.list ul li label input{
+    visibility: hidden;
+    appearance: none;
+}
+.list ul li label p{
+    position: absolute;
+}
+.list ul li label span{
+    position:relative;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.list ul li label span:before
+{
+    content:' ';
+    position:absolute;
+    top:5px;
+    width: 10px;
+    height:5px;
+    border-left: 2px solid #ccc;
+    border-bottom: 2px solid #ccc;
+    transform: rotate(-40deg);
+}
+.list ul li label input:checked ~p
+{
+    text-decoration: line-through;
 }
 h1 {
     color: #f0007b;
 }
 p {
-    color: red;   
+    color: black;   
 }
 iframe {
     display: block;
