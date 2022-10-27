@@ -18,10 +18,14 @@ body {
     background-position: center center;  */
     
 }
+
 .list {
     position: relative;
     background-color: #fff;
-    width: 450px;
+    width: 500px;
+    object-fit: cover;
+    resize: vertical;
+    overflow: auto;
 }
 .list h2{
     background-color: #ec3d40;
