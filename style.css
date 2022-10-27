@@ -6,7 +6,7 @@
     font-family: 'Verdana', sans-serif;
 }
 body {
-    background-color: #f57574;
+    background-color: #FF8A8A;
     display: flex; 
     justify-content: center; /*horizontal*/
     align-items: center; /*vertical center*/
@@ -20,7 +20,7 @@ body {
     width: 450px;
 }
 .list h2{
-    background-color: #03a9f4;
+    background-color: #ec3d40;
     color: #fff;
     padding:10px 20px;
     font-weight: 600;
@@ -73,6 +73,16 @@ body {
 .list ul li label input:checked ~p
 {
     text-decoration: line-through;
+    color: #ccc;
+}
+.list ul li label input~span
+{
+    background-color: #e22c2f;
+}
+.list ul li label input~span::before
+{
+    border-left: 2px solid #ccc;
+    border-bottom: 2px solid #ccc;
 }
 h1 {
     color: #f0007b;
