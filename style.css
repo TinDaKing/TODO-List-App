@@ -11,7 +11,11 @@ body {
     justify-content: center; /*horizontal*/
     align-items: center; /*vertical center*/
     min-height: 100vh;
-
+    /*
+    background: url("background_img.jpg");
+    background-size:     cover;                      
+    background-repeat:   no-repeat;
+    background-position: center center;  */
     
 }
 .list {
@@ -21,6 +25,8 @@ body {
 }
 .list h2{
     background-color: #ec3d40;
+    display:flex;
+    justify-content: center;
     color: #fff;
     padding:10px 20px;
     font-weight: 600;
@@ -32,7 +38,7 @@ body {
 .list ul li{
     position: relative;
     list-style: none;
-    padding: 15px 0;
+    padding: 15px ;
     border-bottom: 1px solid rgba(0,0,0,0.1);
 }
 .list ul li label{
