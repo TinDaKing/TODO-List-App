@@ -6,7 +6,8 @@
     font-family: 'Verdana', sans-serif;
 }
 body {
-    background-color: #FF8A8A;
+    background: rgb(255,138,138);
+    background: linear-gradient(90deg, rgba(255,138,138,1) 0%, rgba(255,138,190,1) 100%);
     display: flex; 
     justify-content: center; /*horizontal*/
     align-items: center; /*vertical center*/
@@ -28,7 +29,8 @@ body {
     overflow: auto;
 }
 .list h2{
-    background-color: #ec3d40;
+    background: rgb(236,61,64);
+    background: linear-gradient(90deg, rgba(236,61,64,1) 0%, rgba(228,17,50,1) 100%);
     display:flex;
     justify-content: center;
     color: #fff;
