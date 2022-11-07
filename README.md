@@ -1,2 +1,2 @@
 # TODO-List-App
-cái auto scale theo mobile làm sao vậy ai pit ko chỉ tui với
+mini project while learning html css js
