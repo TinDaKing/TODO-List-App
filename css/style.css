@@ -97,3 +97,26 @@ body {
     border-left: 2px solid #ccc;
     border-bottom: 2px solid #ccc;
 }
+.form-control{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+#content{
+    display: flex;
+    padding: 5px;
+    height: 50px;
+    resize:none;
+}
+.form-control button{
+    height: 50px;    
+    line-height: 45px;
+    border: none;
+    padding: 5px;
+    background: #E85671;
+    text-align: center;
+    width: 80px;
+    margin-left: 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
